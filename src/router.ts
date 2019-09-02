@@ -1,10 +1,8 @@
-const routes = [
-  //首页
-  { path: '/home', exact: true, asyncComponent: () => import('./pages/home') }
-];
+const routes = [];
 
 const homeRoutes = [
-  { path: '/login', asyncComponent: () => import('./components/login') },
+  //首页
+  { path: '/home', exact: true, asyncComponent: () => import('./pages/home') },
   { path: '/notFound', asyncComponent: () => import('./components/notFound') }
 ];
 
